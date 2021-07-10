@@ -1,0 +1,89 @@
+[
+    {
+        "key":"production",
+        "value":"true"
+    },
+    {
+        "key":"apiHostUrl",
+        "value":"*api.js mock service on port 3000*"
+    },
+    {
+        "key":"hostUrl",
+        "value":""
+    },
+    {
+        "key":"financeBaseUrl",
+        "value":"http://pas-api-demo.australiaeast.cloudapp.azure.com/fin/finance/v2.0.0/"
+    },
+    {
+        "key":"assetBaseUrl",
+        "value":"http://pas-api-demo.australiaeast.cloudapp.azure.com/am/asset/v1/"
+    },
+    {
+        "key":"assetSpaUrl",
+        "value":"http://pas-demo.australiaeast.cloudapp.azure.com/"
+    },
+    {
+        "key":"serviceAgreementUrl",
+        "value":"http://pas-demo.australiaeast.cloudapp.azure.com/vendor/client/{clientId}/vendor/{vendorId}/service-agreement/{serviceAgreementId}/details"
+    },
+    {
+        "key":"SaleApiHostUrl",
+        "value":"http://pas-api-demo.australiaeast.cloudapp.azure.com/sales/selling/v2.0.0/"
+    },
+    {
+        "key":"saleApiHostUrlPrefix",
+        "value":"http://pas-api-demo.australiaeast.cloudapp.azure.com/"
+    },
+    {
+        "key":"organisationState",
+        "value":"http://pas-api-demo.australiaeast.cloudapp.azure.com/organisation/org/v2.0.0/regions?pageNumber=1&pageSize=200&extendedResponse=true&filters=country.countryId:EXACT:CF42B5EB-19C1-4884-B5AB-0400509E00A3"
+    },
+    {
+        "key":"baseOrganizationUrl",
+        "value":"http://pas-api-demo.australiaeast.cloudapp.azure.com/organisation/org/v2.0.0/"
+    },
+    {
+        "key":"templateEngineUrl",
+        "value":"http://pas-api-dev.australiaeast.cloudapp.azure.com/utility/template-engine/v2.0.0/"
+    },
+    {
+        "key":"defaultCatalogueItem",
+        "value":"Public Auction Catalogue"
+    },
+    {
+        "key":"dwHostUrl",
+        "value":"*microservice.js mock service on port 3300*"
+    },
+    {
+        "key":"durationOfNotification",
+        "value":10000
+    },
+    {
+        "key":"azureStorageURLBase",
+        "value":"http://pas-api-demo.australiaeast.cloudapp.azure.com/sales/selling/v2.0.0/azure_storage/"
+    },
+    {
+        "key":"applicationInsights",
+        "value":{
+            "instrumentationKey": "",
+            "enableAutoRouteTracking": true,
+            "buildId": "",
+            "packageVersion": ""
+        }
+    },
+    {
+        "key":"oidc",
+        "value": {
+            "issuer": "https://pickles.oktapreview.com/oauth2/aus9mbgm52M96swvu0h7",
+            "clientId": "0oamtjz6xb4hrHF1A0h7",
+            "redirectUri": "http://localhost:4200/implicit/callback",
+            "scope": "openid profile email",
+            "storage": "sessionStorage",
+            "autoRenew": false,
+            "testing": {
+            "disableHttpsCheck": true
+            }
+        }
+    }
+]

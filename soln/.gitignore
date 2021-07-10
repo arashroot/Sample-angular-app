@@ -9,13 +9,15 @@
 
 # dependencies
 /node_modules
+/.scannerwork
+/documentation
 
 # profiling files
-chrome-profiler-events*.json
-speed-measure-plugin*.json
+chrome-profiler-events.json
+speed-measure-plugin.json
 
 # IDEs and editors
-/.idea
+.idea
 .project
 .classpath
 .c9/
@@ -34,13 +36,26 @@ speed-measure-plugin*.json
 # misc
 /.sass-cache
 /connect.lock
-/coverage
+/coverage/*
 /libpeerconnection.log
 npm-debug.log
 yarn-error.log
 testem.log
 /typings
+/junit
+/junit/*
 
 # System Files
 .DS_Store
 Thumbs.db
+debug.log
+
+.idea/angular-sample-app.iml
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/dictionaries/mehranjanfeshan.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/angular-sample-app.iml
